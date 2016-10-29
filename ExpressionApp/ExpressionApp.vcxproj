@@ -147,11 +147,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Essentials.cpp" />
+    <ClCompile Include="EssentialsCpu.cpp" />
+    <ClCompile Include="EssentialsGpu.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Essentials.h" />
+    <ClInclude Include="EssentialsCpu.h" />
+    <ClInclude Include="EssentialsGpu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

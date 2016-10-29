@@ -1,6 +1,7 @@
 #include <iostream>
 
-#include "Essentials.h"
+#include "EssentialsCpu.h"
+#include "EssentialsGpu.h"
 
 using namespace cv;
 using namespace std;
